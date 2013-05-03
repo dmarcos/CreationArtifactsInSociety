@@ -1,0 +1,48 @@
+body,html{
+  background-image: url('/img/white_wall_hash.png'); 
+  background-position: initial initial; 
+  background-repeat: initial initial;  
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+body{
+  padding: 20px 0px 0px 40px;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+}
+
+nav ul li{
+ display: inline-block;
+ margin-right: 20px;
+ font-size: 20px;
+}
+
+nav ul li a.selected{
+  color: white;
+  background-color: blue;
+  padding: 10px;
+}
+
+nav ul li a{
+ text-decoration: none;
+}
+
+nav ul li a:hover{
+ text-decoration: underline;
+}
+
+#content{
+  margin-top: 50px;
+  padding: 20px ;
+}
+
+#artifactDescription{
+  display: inline-block; 
+  width: 450px; 
+  margin-left: 20px
+}
